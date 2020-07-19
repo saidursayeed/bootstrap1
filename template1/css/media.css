@@ -1,18 +1,18 @@
-// Extra small devices (portrait phones, less than 576px)
+/*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	.container{
 		text-align: center;
 	}
-	.container h1{
+	.container h1 {
 		font-size: 20px;
 		color: blue;
 	}
-	.container h3{
+	.container h3 {
 		font-size: 15px;
 		color: red;
 		margin: 50px auto;
 	}
-	.container p{
+	.container p {
 		width: 50%;
 		margin: 0 auto;
 		font-size: 10px;
@@ -20,7 +20,7 @@
 	}
 }
 
-// Small devices (landscape phones, 576px and up)
+/*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
 		.container{
 		text-align: center;
@@ -40,7 +40,7 @@
 		text-align: center;
 	}
 }
-// Medium devices (tablets, 768px and up)
+/*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 		.container{
 		text-align: center;
@@ -60,7 +60,7 @@
 		text-align: center;
 	}
 }
-// Large devices (desktops, 992px and up)
+/*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 		.container{
 		text-align: center;
@@ -80,7 +80,7 @@
 		text-align: center;
 	}
 }
-// Extra large devices (large desktops, 1200px and up)
+/*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
 		.container{
 		text-align: center;
